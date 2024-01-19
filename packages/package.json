@@ -1,0 +1,48 @@
+{
+  "name": "ak-gantt-charts",
+  "version": "1.1.0",
+  "description": "ak-gantt-charts是一个基于Vue3的甘特任务进度管理图与团队协作工具管理组件是一款功能强大的项目管理工具，它能够帮助团队更好地管理和跟踪任务的进度，提高团队协作效率。该组件提供了一个直观的甘特图，展示任务的时间线和进度，并支持多人协作编辑，实时同步任务状态。",
+  "license": "MIT",
+  "author": "337547038",
+  "keywords": [
+    "vue3",
+    "甘特图",
+    "任务进度"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/337547038/ak-gantt-charts.git",
+    "directory": ""
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "bugs": {
+    "url": "https://github.com/337547038/ak-gantt-charts/issues"
+  },
+  "homepage": "https://github.com/337547038/ak-gantt-charts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

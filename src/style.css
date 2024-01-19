@@ -1,0 +1,4 @@
+html,body,div,ul,li,p,span,h1,h2,h3,h4{margin: 0;padding: 0;font-weight: 400}
+ul,li{list-style: none}
+body{font-size: 14px; font-family: Arial, "Microsoft YaHei UI", serif}
+*{box-sizing: border-box}
