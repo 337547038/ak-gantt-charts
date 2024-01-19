@@ -8,9 +8,9 @@
 </template>
 <script setup lang="ts">
 import {ref, onMounted} from 'vue'
-import GanttCharts from '../components/index.vue'
-//import GanttCharts from '../../packages/dist/index'
-//import '../../packages/dist/style.css'
+//import GanttCharts from '../components/index.vue'
+import GanttCharts from 'ak-gantt-charts'
+import 'ak-gantt-charts/style.css'
 
 const dataList = ref([])
 
